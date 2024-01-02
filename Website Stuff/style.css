@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* Default Stuff */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Headers and stuff like that */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 100px;
+    width: 100%;
+    background: #313131;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    z-index: 99;
+    justify-content: space-between;
+
+}
+
+.btnTesting, .safeguarding, .asas {
+    color: #000000;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    border: 2px solid #fff;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    transition: .5s;
+}
+
+.btnTesting:hover, .safeguarding:hover, .asas:hover {
+    color: #ffffff;
+    background: #a3a3a3;
+    width: 160px;
+    height: 50px;
+}
+
+.text-box {
+    color: #ff0000;
+    align-items: center;
+}
+
+.verification-box {
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    height: 400px;
+    width: 400px;
+    align-content: center;
+    position: relative;
+}
+
+.verification-box .text-box1 {
+    position: relative;
+    align-self: center;
+    right: -44%;
+}
+
+.input-box {
+    position: fixed;
+    top: 30%;
+    align-items: center;
+    right: 30%;
+    background: transparent;
+}
+
+.input-box {
+
+    background: transparent;
+    border-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+}
+
+.rob {
+    position: fixed;
+    top: 40%;
+    align-items: center;
+    right: 30%;
+    background: transparent;
+}
+
+.rob {
+
+    background: transparent;
+    border-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+}
+
+.discord-name-submit {
+    background: #6d6d6d;
+    border: 2px solid #fff;
+    color: #fff;
+    position: relative;
+    align-self: center;
+    bottom: -60%;
+    left: 25%;
+    height: 35px;
+    width: 200px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 3px;
+}
+
+.discord-name-submit:hover {
+    background: #949494;
+    border: 2px solid #fff;
+    color: #fff;
+    align-self: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+.success {
+    color: #000000;
+    font-size: 12px;
+    position: relative;
+    align-self: center;
+    left: 25%;
+    height: 35px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+.support_txt {
+    color: #000000;
+    font-size: 12px;
+    position: relative;
+    align-self: center;
+    left: 29%;
+    bottom: -55%;
+    height: 35px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+.plr {
+    color: #990404;
+    font-size: 12px;
+    position: relative;
+    align-self: center;
+    left: 26%;
+    bottom: -15%;
+    height: 35px;
+    width: 200px;
+    border-radius: 3px;
+}
